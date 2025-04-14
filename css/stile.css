@@ -200,7 +200,9 @@ h1 {
   width: auto;
   height: 90%;
   border-radius: 10px;
-  position: st
+  position: sticky;
+  opacity: 1;
+  transition: opacity 0.5s ease;
 }
 
 iframe {
@@ -214,6 +216,21 @@ iframe {
 
 .tabbed-text {
   padding-left: 1em;
+}
+
+.fade-out {
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.fade-in {
+  opacity: 1;
+  transition: opacity 0.5s ease;
+}
+
+.chibi-size {
+  max-width: 300px;
+  max-height: 500px;
 }
 
 @media (max-width: 768px) {
