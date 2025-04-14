@@ -4,7 +4,7 @@ const imageMap = {
     egg3: "immagini/Mita_full.webp",
     egg4: "immagini/chibi-mita.webp",
     egg5: "immagini/sleepy-mita.webp",
-    egg6: "immagini/mila.webp"
+    egg6: "immagini/Mila.webp"
 };
 
 const imageElement = document.querySelector(".image-container img");
